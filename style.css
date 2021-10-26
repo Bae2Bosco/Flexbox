@@ -1,0 +1,90 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.main{
+    display: flex;
+    /* border: 2px solid red; */
+    flex-direction: column;
+    margin: -8px -8px;
+
+}
+
+.container-1{
+    display:flex;
+    width: 1520px;
+    /* border: 2px solid red; */
+    justify-content: end;
+    background-color: turquoise;
+}
+.nav_bar_container{
+    /* border: 2px solid red; */
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 225px;
+}
+.container-2{
+    height: 200px;
+    background: url("https://hbr.org/resources/images/article_assets/2004/10/SEPT15_03_535621603.jpg");
+    background-size: cover;
+    display:flex;
+    justify-content: space-around;
+}
+.container-3{
+    display: flex;
+    /* height:200px; */
+    justify-content: space-between;
+}
+.left,.right{
+    display: flex;
+    flex-direction: column;
+}
+.boxes{
+    display:flex;
+    flex-direction: column;
+    margin:50px 200px;
+    width: 200px;
+    height: 100px;
+    background-color: turquoise;
+    justify-content: space-between;
+    text-align: center;
+}
+.container-4{
+    display: flex;
+
+    justify-content: center;
+    background-color: steelblue;
+
+}
+.text-1{
+    color:white;
+    width:800px;
+    margin: 50px;
+}
+
+.container-5{
+    display: flex;
+
+    justify-content: space-between;
+}
+.boxes-2{
+    display:flex;
+    flex-direction: column;
+    margin:50px 200px;
+    width: 400px;
+    height: 200px;
+    background-color: turquoise;
+    justify-content: space-between;
+    text-align: center;
+}
+.container-6{
+    color: white;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    background-color: turquoise;
+}
